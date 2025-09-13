@@ -5,9 +5,11 @@ game live at- https://sahilsawant182.github.io/Tic-Tac-Toe-game/
 🚀 First Step for my Web Development journey!
 
 🛠️ What I Learned:
+
+ 
   -DOM manipulation
   
-  =JavaScript functions and event handling
+  -JavaScript functions and event handling
   
   -Game logic using arrays and conditions
   
