@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Arial',sans-serif;
-    background: #1a1a1a;
+    background: #1b1b1b;
     color: white;
     min-height: 100vh;
     display: flex;
@@ -74,10 +74,12 @@ h1{
 .cell.o{
     color: #4ecdc4
 }
-cell.winner{
-    background: #333;
-    animation: winner-glow 0.6s ease-in-out;
+.cell.win {
+    background-color: rgb(156, 223, 156);
+    font-weight: bold;
 }
+
+
 @keyframes winner-glow{
     0%{transform: scale(1);}
     50%{transform: scale(1.1);background: #555;}
@@ -164,7 +166,7 @@ cell.winner{
     color: #ff6b6b;
 }
 .score.o .score-value{
-    color: #4ecdc4;
+    color: #ff6b6b;
 }
 .score.tie .score-value{
     color: #ffa500;
@@ -185,6 +187,5 @@ cell.winner{
             width: 200px;
         }
     }
-
 
 }
