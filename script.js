@@ -5,7 +5,7 @@ let cells = document.querySelectorAll(".cell");
 
 const player_x = []; 
 const player_o = [];
-cells.forEach(cell => {
+cells.forEach(cell => {  
     cell.addEventListener("click", () => {
         console.log(cell.getAttribute("data-index"));
         cell.textContent = currentPlayer_js.toUpperCase();
